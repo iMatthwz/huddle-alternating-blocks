@@ -13,6 +13,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 /* General Styles */
@@ -32,18 +33,19 @@ h1, h2 {
     margin: 0 auto;
 }
 
-/* HEADER */
+/* HEADER + INTRODUCTION */
 
 .top {
     background-image: url(../img/bg-hero-mobile.svg);
     background-color: hsl(193, 100%, 96%);
+    padding: 30px 0 25px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 0;
+    margin-bottom: 70px;
 }
 
 header img {
@@ -60,73 +62,90 @@ header img {
     color: hsl(192, 100%, 9%);
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
+    font-size: 0.7rem;
     cursor: pointer;
 }
 
 .introduction {
+    font-size: 1.1rem;
     text-align: center;
     color: hsl(192, 100%, 9%);
 }
 
 .introduction h1 {
-    margin-top: 25px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
 }
 
 .btn-2 {
     background-color: hsl(322, 100%, 66%);
     color: white;
-    box-shadow: none;
     padding: 13px 60px;
-    margin: 25px 0;
+    margin: 40px 0;
+    font-size: 0.8rem;
 }
 
 .introduction img {
     width: 325px;
     height: auto;
-    margin: 20px 0;
 }
 
 /* CARDS */
 
+main {
+    background-color: white;
+    padding-top: 55px;
+}
+
 .card {
     box-shadow: 0 0 20px rgba(0, 0, 0, .1);
     border-radius: 15px;
-    margin: 40px 0;
+    margin-bottom: 40px;
     text-align: center;
     color: hsl(192, 100%, 9%);
-    padding: 50px 10px 35px;
+    padding: 50px 35px 40px;
+    background-color: white;
+    font-size: 0.85rem;
 }
 
 .card p {
     color: hsl(208, 11%, 55%);
     margin-top: 15px;
-    font-size: 17px;
+    font-size: 0.94rem;
 }
 
 .card img {
-    width: 260px;
+    width: 240px;
     height: auto;
-    margin-bottom: 40px;
+    margin-bottom: 45px;
+}
+
+.card-special {
+    margin-bottom: 120px;
 }
 
 .call-to-action {
-    font-size: 12.5px;
+    font-size: 0.7rem;
     font-family: "Open Sans";
     font-weight: 700;
-    padding-bottom: 20px;
+    padding: 40px 10px 0px;
+    position: relative;
+    margin: 0 0 -60px;
 }
 
 .btn-special {
-    padding: 13px 40px;
-    font-size: 13px;
+    margin-top: 20px;
+    padding: 13px 45px;
+    font-size: 0.7rem;
 }
 
 /* FOOTER */
 
 footer {
     background-color: hsl(192, 100%, 9%);
-    padding: 115px 0 50px;
+    padding: 130px 0 50px;
+    font-weight: 400;
+    color: white;
 }
 
 .logo-white {
@@ -135,16 +154,63 @@ footer {
 }
 
 .information {
-    margin: 15px 0;
+    margin-bottom: 50px;
+}
+
+.information li {
+    margin: 20px 0;
+    font-size: 1rem;
+}
+
+.information a {
+    margin-left: 15px;
 }
 
 .information-location {
     display: flex;
     align-items: flex-start;
-    margin-left: 1-5px;
+    margin-left: 15px;
 }
 
 .information-location p {
-    margin-left: 15px;
+    margin-left: 25px;
     margin-top: -5px;
+}
+
+.pages {
+    font-size: 1.2rem;
+}
+
+.pages li {
+    margin-top: 15px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 25px;
+}
+
+.social li {
+    margin: 0 10px;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+.facebook {
+    padding: 5px 12px;
+}
+
+.twitter {
+    padding: 5px 8px;
+}
+
+.instagram {
+    padding: 5px 10px;
+}
+
+.attribution {
+    font-size: 0.7rem;
+    text-align: center;
+    margin-bottom: 5px;
 }
