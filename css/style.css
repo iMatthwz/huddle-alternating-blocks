@@ -239,6 +239,10 @@ footer {
         height: auto;
     }
 
+    .introduction img {
+        width: 50%;
+    }
+
     .btn-base {
         padding: 7px 35px;
         font-size: 0.8rem;
@@ -247,6 +251,11 @@ footer {
     .btn-2 {
         font-size: 1rem;
         padding: 13px 60px;
+    }
+
+    .card img {
+        width: 40%;
+        max-width: 45%;
     }
 
     .call-to-action {
@@ -311,11 +320,6 @@ footer {
         margin-right: 50px;
     }
 
-    .introduction img {
-        width: 500px;
-        height: auto;
-    }
-
     .btn-2 {
         font-size: 0.75rem;
         padding: 15px 45px;
@@ -337,18 +341,12 @@ footer {
         flex-direction: row-reverse;
     }
 
-    .card img {
-        width: 300px;
-        height: auto;
-        margin-bottom: 0;
-    }
-
     .card div {
-        margin-right: 80px;
+        margin-right: 10%;
     }
 
     #exception {
-        margin-left: 80px;
+        margin-left: 10%;
         margin-right: 0;
     }
     
@@ -393,11 +391,6 @@ footer {
         margin-right: 60px;
     }
 
-    .introduction img {
-        width: 650px;
-        height: auto;
-    }
-
     .btn-2 {
         font-size: 1rem;
     }
@@ -410,19 +403,12 @@ footer {
         font-size: 1.1rem;
     }
 
-    .card img {
-        width: 400px;
-        height: auto;
-    }
-
     .card div {
-        margin-right: 120px;
-        padding-right: 50px;
+        margin-right: 15%
     }
 
     #exception {
-        margin-left: 120px;
-        padding-left: 50px;
+        margin-left: 15%;
         margin-right: 0;
     }
 
