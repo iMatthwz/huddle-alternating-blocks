@@ -254,8 +254,7 @@ footer {
     }
 
     .card img {
-        width: 40%;
-        max-width: 45%;
+        width: 35%;
     }
 
     .call-to-action {
@@ -332,7 +331,7 @@ footer {
         width: 85%;
         margin-right: auto;
         margin-left: auto;
-        padding: 40px 35px 40px 70px;
+        padding: 4% 3.5% 4% 7%;
         text-align: left;
         font-size: 1rem;
     }
@@ -348,6 +347,10 @@ footer {
     #exception {
         margin-left: 10%;
         margin-right: 0;
+    }
+
+    .card img {
+        padding-top: 3%;
     }
     
     .call-to-action {
