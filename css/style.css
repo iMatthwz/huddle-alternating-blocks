@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
 
+/* ===== MOBILE FIRST ===== */
+
 /* RESET */
 
 * {
@@ -213,4 +215,218 @@ footer {
     font-size: 0.7rem;
     text-align: center;
     margin-bottom: 5px;
+}
+
+/* ===== MEDIA TYPES ===== */
+
+/* LARGE SMARTPHONE */
+
+@media screen and (min-width: 425px) {
+    .call-to-action {
+        width: 85%;
+        max-width: 400px;
+        padding: 40px 0 0;
+        margin-right: auto;
+        margin-left: auto
+    }
+}
+
+/* TABLETS */
+
+@media screen and (min-width: 768px) {
+    header img {
+        width: 160px;
+        height: auto;
+    }
+
+    .btn-base {
+        padding: 7px 35px;
+        font-size: 0.8rem;
+    }
+
+    .btn-2 {
+        font-size: 1rem;
+        padding: 13px 60px;
+    }
+
+    .call-to-action {
+        width: 60%;
+        max-width: 500px;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 0.8rem;
+    }
+
+    .btn-special {
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 0.8rem;
+    }
+
+    footer nav {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .information {
+        width: 100%;
+    }
+
+    footer p:nth-child(3) {
+        margin-top: 50px;
+    }
+}
+
+/* LAPTOPS */
+
+@media screen and (min-width: 1024px) {
+    .top {
+        padding-bottom: 40px;
+    }
+    
+    header img {
+        width: 180px;
+        height: auto;
+    }
+
+    .btn-base {
+        padding: 12px 45px;
+    }
+
+    .introduction {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+        font-size: 0.87rem;
+    }
+
+    .introduction h1 {
+        font-size: 1.9rem;
+    }
+
+    .introduction div {
+        margin-right: 50px;
+    }
+
+    .introduction img {
+        width: 500px;
+        height: auto;
+    }
+
+    .btn-2 {
+        font-size: 0.75rem;
+        padding: 15px 45px;
+    }
+    
+    .card:nth-child(-n + 3) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 40px 35px 40px 70px;
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    .card:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+
+    .card img {
+        width: 300px;
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    .card div {
+        margin-right: 80px;
+    }
+
+    #exception {
+        margin-left: 80px;
+        margin-right: 0;
+    }
+    
+    .call-to-action {
+        width: 70%;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 0.9rem;
+    }
+
+    .btn-special {
+        font-size: 0.9rem;
+        padding: 20px 50px;
+    }
+    
+    .information {
+        width: 35%;
+    }
+
+    footer p:nth-child(3) {
+        margin-top: 0;
+    }
+
+    .attribution {
+        text-align: right;
+    }
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 1440px) {
+    .introduction p {
+        font-size: 1.2rem;
+    }
+
+    .introduction h1 {
+        font-size: 2.8rem;
+    }
+
+    .introduction div {
+        margin-right: 60px;
+    }
+
+    .introduction img {
+        width: 650px;
+        height: auto;
+    }
+
+    .btn-2 {
+        font-size: 1rem;
+    }
+
+    .card:nth-child(-n + 3) {
+        font-size: 1.2rem
+    }
+
+    .card p {
+        font-size: 1.1rem;
+    }
+
+    .card img {
+        width: 400px;
+        height: auto;
+    }
+
+    .card div {
+        margin-right: 120px;
+        padding-right: 50px;
+    }
+
+    #exception {
+        margin-left: 120px;
+        padding-left: 50px;
+        margin-right: 0;
+    }
+
+    .call-to-action h2 {
+        font-size: 1.6rem;
+    }
 }
